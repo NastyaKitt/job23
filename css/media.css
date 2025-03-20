@@ -219,7 +219,7 @@
         &.show {
             & form {
                 width: 90%;
-                height: 40%;
+                height: auto;
             }
         }
     }
@@ -313,88 +313,4 @@
     html {
         font-size: 10px;
     }
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
-}
-@media (max-width:1920px) {
-    
 }
