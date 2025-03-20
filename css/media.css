@@ -1,0 +1,400 @@
+@media (max-width:1024px) {
+    html {
+        font-size: 14px;
+    }
+    main {
+        padding: 0 2rem;
+    }
+    .heroSection {
+
+        width: calc(100% + 4rem);
+        padding: 0 2rem 2rem;
+    }
+    .pricePk, .priceMono, .priceLap {
+        & .priceList {
+            flex-wrap: wrap;
+            height: 23rem;
+            & .priceItem, .priceItemLap, .priceItemMono {
+                &.show {
+                    &.first-active {
+                        width: 48%;
+                    }
+                    &.middle-active {
+                        width: 48%;
+                    }
+                    &.last-active {
+                        width: 48%;
+                    }
+                    }
+            }
+        }
+    }
+    .pricePk,.priceMono,.priceLap {
+        & h2 {
+            margin: 2rem 0;
+        }
+    }
+    #callForm1, #callForm2 {
+        margin: 3rem 0;
+    }
+    .howRepair {
+        & span {
+            & .howSlider {
+                & .howItem {
+                    &.show {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+    .whyMe {
+        & span {
+            & .whySlider {
+                & .whyItem {
+                    &.show {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & span {
+            & .reviewSlider {
+                & .reviewItem {
+                    &.show {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+}
+@media (max-width:768px) {
+    .heroSection {
+        height: 35rem;
+        & span:last-child {
+            & img {
+                height: 30rem;
+            }
+        }
+    }
+    .heroSection {
+        & .images {
+            width: 20rem;
+        }
+    }
+    
+    
+    
+}
+@media (max-width:425px) {
+    html {
+        font-size: 12px;
+    }
+    header {
+        text-align: center;
+    }
+    .heroSection {
+        & span:last-child {
+            & img {
+                height: 20rem;
+            }
+        }
+    }
+    .heroSection {
+        & .images {
+            width: 15rem;
+            padding: 0 1rem 1rem;
+        }
+    }
+    .heroSection {
+        & span:first-child {
+            & button {
+                height: 5rem;
+            }
+        }
+    }
+    #callForm1, #callForm2 {
+        width: 75%;
+    }
+    .howRepair {
+        & span {
+            & .howSlider {
+                width: calc(100% - 8rem);
+                & .howItem {
+                    &.show {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .whyMe {
+        & span {
+            & .whySlider {
+                width: calc(100% - 8rem);
+
+                & .whyItem {
+                    &.show {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & span {
+            & .reviewSlider {
+                width: calc(100% - 8rem);
+
+                & .reviewItem {
+                    &.show {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & span {
+            & .reviewSlider {
+                & .reviewItem {
+                    &.show {
+                        & span {
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & span {
+            & .reviewSlider {
+                & .reviewItem {
+                    &.show {
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+    
+    .me {
+        & span {
+            & p {
+                width: 95%;
+            }
+        }
+    }
+    .me {
+        & span {
+            & img {
+                background-color: #333;
+                width: 5%;
+            }
+        }
+    }
+    
+    
+    
+    
+}
+@media (max-width:375px) {
+    .heroSection {
+        width: calc(100% + 2rem);
+        padding: 0 1rem 2rem;
+    }
+    main {
+        padding: 0 1rem;
+    }
+    .popupForm {
+        &.show {
+            & form {
+                width: 90%;
+                height: 40%;
+            }
+        }
+    }
+    .whyMe {
+        & span {
+            & button {
+                font-size: 2rem;
+            }
+        }
+    }
+    .whyMe {
+        & span {
+            & .whySlider {
+                width: calc(100% - 4rem);
+            }
+        }
+    }
+    .howRepair {
+        & span {
+            & button {
+                font-size: 2rem;
+            }
+
+            & .howSlider {
+                width: calc(100% - 4rem);
+            }
+        }
+    }
+    .review {
+        & span {
+            & button {
+                font-size: 2rem;
+            }
+
+            & .reviewSlider {
+                width: calc(100% - 4rem);
+            }
+        }
+    }
+    footer {
+        & span {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .popupForm {
+        &.show {
+            & .koko {
+                width: 90%;
+                height: 60%;
+            }
+        }
+    }
+    .priceMono {
+        & .priceList {
+            & .priceItemMono {
+                &.show {
+                    & img {
+                        position: absolute;
+                        width: 7rem;
+                        right: 0;
+                        top: 5rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    .priceLap {
+        & .priceList {
+            & .priceItemLap {
+                &.show {
+                    & img {
+                        position: absolute;
+                        width: 7rem;
+                        left: 0;
+                        top: 6rem;
+                    }
+                }
+            }
+        }
+    }
+    
+        
+    
+    
+    
+    
+}
+@media (max-width:320px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
